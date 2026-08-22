@@ -35,7 +35,8 @@ export function List() {
                     <TopSaleCoffee
                         key={Math.random()}
                         name={coffee.name}
-                        description={coffee.description} />
+                        description={coffee.description} 
+                    />
                 ))}
             </div >
             <h3>Outros cafés: </h3>
